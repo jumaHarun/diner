@@ -85,7 +85,7 @@ Layout
 .container {
   max-width: 37.5rem;
   background-color: #fff;
-  padding-inline: 2.875rem;
+  padding-inline: 1rem;
   margin: 0 auto;
 }
 
@@ -111,12 +111,8 @@ Layout
 
 .menu-item {
   display: flex;
-  gap: 1rem;
   border-bottom: 1px solid #d2d2d2;
-  position: relative;
-  /* padding-bottom: 3.1875rem;  */
   padding-bottom: 1.2rem;
-  /* margin-bottom: 2.8125rem; */
   margin-bottom: 1rem;
 }
 
@@ -124,6 +120,10 @@ Layout
   font-size: 4rem;
   text-align: center;
   width: 7rem;
+}
+
+.item-details {
+  flex-grow: 1;
 }
 
 .item-desc {
@@ -141,10 +141,8 @@ Layout
   color: #3c3c3c;
   border: 1px solid #dedede;
   border-radius: 50%;
-  position: absolute;
-  top: 9px;
-  right: 0;
   padding: 0.75rem 0.85rem;
+  float: right;
 }
 
 .order {

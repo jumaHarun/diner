@@ -140,11 +140,11 @@ function getMenuItemsHtml(items) {
                 <p>${image}</p>
             </div>
             <div class="item-details">
+                <button class="add-to-cart" data-cart="${name}">+</button>
                 <h4 class="item-name">${name}</h4>
                 <p class="item-desc">${desc}</p>
                 <p class="item-price">$${price}</p>
 
-                <button class="add-to-cart" data-cart="${name}">+</button>
             </div>
         </div>
         `;
