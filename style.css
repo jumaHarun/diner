@@ -207,7 +207,6 @@ Layout
 /* Checkout payment modal */
 .checkout {
   display: none;
-  min-height: 23.75rem;
   max-width: 32.75rem;
   text-align: center;
   font-family: Verdana, sans-serif;
